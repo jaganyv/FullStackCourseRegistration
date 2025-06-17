@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Register a Course</title>
+        <link rel="stylesheet" href="register.css">
+    </head>
+    <body>
+        <h1 style="color: #4A90E2;">KickStart With an Exciting Course</h1>
+        <form action="http://localhost:8080/courses/register" method="post">
+            <label for="name">Enter Your Name: </label><br>
+            <input type="text" name="name"><br>
+
+            <label for="email">Enter Your emailId: </label><br>
+            <input type="email" name="emailId"><br>
+
+            <label for="course">Choose a Course</label><br>
+            <select name="courseName" id="course">
+                <option value="Java Essentials">Java Essentials</option>
+                <option value="python for Ml">Python For Ml</option>
+                <br>
+                <option value="Spring Boot">Spring Boot</option>
+            </select>
+            <br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
